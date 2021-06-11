@@ -1,0 +1,61 @@
+Notes v1.0
+
+Notes v1.1
+-New confirm dialog when generating css and no grid rows are marked.
+-Added width and height columns to be able to resize each user images.
+-Fixed some tooltips/messages.
+Bugs fixed
+-When displaying "Only generated users", the hidden avatars take html space and move the visible ones.
+
+Notes v1.2
+-New jump animations (all directions now available).
+-New color modifiers "sepia" and "brightness reduced" when users not talking.
+Bugs fixed
+-When using "Custom positions", images keep a margin and don't start from the actual screen edge.
+
+Notes v1.3
+-Fields "Avatar size" and "Border speaking" now are always available. This way the default appearance of guest users (users not marked in the grid) can be configured.
+-New field "Avatar margin" (always available too). Determines the separation between avatars when displayed horizontally or vertically (avatars with custom positions are not affected by this setting).
+-New animation "Zoom".
+-Tooltips updated.
+Bugs fixed
+-When placing images outside the canvas the browser shows scroll bars.
+
+Notes v1.3b
+-Animation "Zoom" renamed to "Zoom in". Animation "Zoom out" added.
+-Border shape field now let's choose between circle or square Discord avatars.
+-Fixed confusing behaviour when showing/hiding the grid columns regarding border color.
+-Fields tab order fixed.
+
+Notes v1.4
+-New fields to set the top-left start position of the overlay (distance from the corner). The idea is to set the OBS layer to fill the whole screen and then control everything through this app.
+-New checkbox column to hide specific users. Can be handy when, in example, a streamer doesn't want to appear themself in the overlay because they already have a webcam or a 3D avatar.
+-New menu links to open the overlay website and open this discord channel to check for updates (yes, I'm lazy, I wanted something to click and go 😅).
+
+Notes v1.4b
+-Avatars are always displayed regardless of users being silent or speaking. We can set the opacity to zero when silent, but avatars will still be rendered and will keep their position/order in the screen. Now it will be possible to choose the effect "No render" when users are silent. For the vertical/horizontal layout this means avatars will appear and stack up as people speak. Thus, the field "Colors" has been renamed to "Effect".
+
+Notes v1.4c
+-Added a label to remind people about tooltips.
+-Tooltip messages updated to make things more clear.
+
+Notes v1.5
+-Field "Layout" now lets choose between vertical/horizontal and default/custom positions (until now the custom positions option forced the layout to be always vertical).
+-New field "Layout position" to configure the screen corner where the overlay will be rendered.
+-Fields rearranged (similar fields are now together, I think it looks a bit more natural).
+-Added my avatar in the About popup, because :3
+
+Notes v1.6
+-Whole new section to configure discord names. Position (over/right/under/left the avatar), style (rectangle background, outline effect or nothing), margins, size and colors.
+-Rest of fields moved/compacted.
+-Removed color picker buttons (to access the popup just click the colored square).
+-Removed color clear buttons.
+
+Notes v1.6b
+-Set the names opacity to "Opacity speaking" field value (due to widget limitation names don't change when speaking, so to try to keep visual consistency I'm setting them to that custom value instead of always 100%).
+-Bonus: New looping/infinite animations added ✨ (I didn't want to add those because they can be really distracting, but the more variety the better I guess!).
+
+Notes v1.7
+-Added Reset menu option (in case someone wants to reset app to default values).
+-Added Import and Export menu options (so now you can have your own backups, or share the config with another person).
+-Load action (when app is open) and import action will compare the version of the file with the current app version and will alert the user if needed.

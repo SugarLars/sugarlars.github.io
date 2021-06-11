@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body { font-family: "Segoe UI"; margin: 0px; background-color: #eeeeee; }
+    h2 { font-size: 1.2em; line-height: 1em; }
+    a { color: inherit; } 
+    ul, ol { margin-top: 0px; padding-left: 25px; }
+    img { display: block; margin-block-start: 1em; margin-block-end: 1em; width: 100%; }
+    span { display: block; }
+    .bar { width: 100%; background-color: cornflowerblue; }
+    .header { width: fit-content; margin: 0px auto; padding: 40px 0px; }
+    .section { width: 550px; margin: 0px auto; padding: 20px 0px; }
+    .footer { width: fit-content; margin: 0px auto; padding: 25px 0px; }
+    .title { font-size: 3em; font-weight: bold; color: white; }
+    .button { display: inline-block; margin: 10px 30%;
+              font-size: 1.2em; font-weight: bold; text-decoration: none;
+              color: white; background-color: cornflowerblue;
+              border-radius: 3px; padding: 4px 6px; }
+    .link:hover { filter: drop-shadow(2px 2px 2px black); }
+    .note { font-size: 0.8em; }
+</style>
+</head>
+<body>
+
+    <div class="bar">
+        <div class="header">
+        <span class="title">SugarLars' apps & stuffs</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Custom app to personalize <a href="https://streamkit.discord.com/overlay" target="blank">DiscordStreamkit VoiceWidget</a> overlay appearance</h2>
+        <ol>
+            <li>Configure overlay and avatars properties.</li>
+            <li>With one click translate all settings into a CSS.</li>
+            <li>Paste that CSS in the overlay OBS properties ("Custom CSS" field).</li>
+        </ol>
+        
+        <p class="note"><u>Note</u>: App doesn't add/modify/remove any code from overlay website.</br>
+        App only takes advantage of CSS styles to alter the way avatars are displayed.</p>
+
+        <a class="button link" href="DiscordOverlayCSSGenerator\DiscordOverlayCSSGenerator_v1.7.exe" target="blank">Download v1.7</a>
+       
+        </br>
+
+        <a href="DiscordOverlayCSSGenerator\screenshot_v1.7.png" target="blank">
+            <img class="link" src="DiscordOverlayCSSGenerator\screenshot_v1.7.png" style="height: 50%;"/>
+        </a>
+
+        <span>Features:</span>
+        <ul>
+            <li>Settings automatically saved in internal save file.</li>
+            <li>Show only selected users, and/or hide specific ones.</li>
+            <li>Change layout position and orientation.</li>
+            <li>Change avatars size and margin.</li>
+            <li>Set an animation/effect when users start talking.</li>
+            <li>Change opacity when users start talking.</li>
+            <li>Change names position and effect.</li>
+        </ul>
+
+        <span>And for specific users:</span>
+        <ul>
+            <li>Set custom images for silence and speaking.</li>
+            <li>Set avatar position and size.</li>
+            <li>Set custom border color.</li>
+        </ul>
+    </div>
+
+    <div class="bar">
+        <div class="footer">
+            <span>Contact <a href="https://twitter.com/SugarLars" target="blank">@SugarLars</a></span>
+        </div>
+    </div>
+
+</body>
+</html>

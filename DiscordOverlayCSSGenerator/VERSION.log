@@ -59,3 +59,6 @@ Notes v1.7
 -Added Reset menu option (in case someone wants to reset app to default values).
 -Added Import and Export menu options (so now you can have your own backups, or share the config with another person).
 -Load action (when app is open) and import action will compare the version of the file with the current app version and will alert the user if needed.
+
+Notes v1.7b
+-Amended About popup to remove references to my discord channel. From now on the latest version of the app can be downloaded from the GitHub website https://sugarlars.github.io/.

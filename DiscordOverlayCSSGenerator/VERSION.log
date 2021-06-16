@@ -62,3 +62,10 @@ Notes v1.7
 
 Notes v1.7b
 -Amended About popup to remove references to my discord channel. From now on the latest version of the app can be downloaded from the GitHub website https://sugarlars.github.io/.
+
+Notes v1.7c
+-"Check updates" menu option now will actually check the GitHub website and compare version numbers.
+-New "Copy" button added (duplicates rows).
+-New column "Name" to choose whether to show/hide the name for each user.
+-App performance improved (removed grid "X" clear buttons, enabled grid DoubleBuffering, always use grid AddRange() when populating).
+-Grid max rows increased to 50.

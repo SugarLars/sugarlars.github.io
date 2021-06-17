@@ -69,3 +69,7 @@ Notes v1.7c
 -New column "Name" to choose whether to show/hide the name for each user.
 -App performance improved (removed grid "X" clear buttons, enabled grid DoubleBuffering, always use grid AddRange() when populating).
 -Grid max rows increased to 50.
+
+Notes v1.7d
+-When generating CSS, results will be presented in a popup (instead of directly copied to clipboard). This will avoid the random exception of clipboard being "locked" by another process.
+-Load config file confirmation popup now will appear after the app has been rendered (for some reason popup was always displayed before the app).

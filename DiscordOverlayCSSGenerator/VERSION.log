@@ -73,3 +73,10 @@ Notes v1.7c
 Notes v1.7d
 -When generating CSS, results will be presented in a popup (instead of directly copied to clipboard). This will avoid the random exception of clipboard being "locked" by another process.
 -Load config file confirmation popup now will appear after the app has been rendered (for some reason popup was always displayed before the app).
+
+Notes v1.7e
+-Fixed newline character when displaying generated CSS result in the textarea (it was shown like one humongous single line).
+-Popups (About and Result) now will appear centered in the app (it was annoying Windows placing them in random start positions).
+-Press escape key to close About and Result dialogs (God, why didn't I add this functionality before??).
+-New "Reload" menu option to restore last internal save file (handy when opening a new version of the app, and it asks you if you want to load the previous version file, and you accidentally say no).
+-Added Ctrl+S shortcut to save the form.

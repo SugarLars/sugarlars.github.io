@@ -1,0 +1,520 @@
+{
+  "clientId": {
+    "group": "AUTHENTICATION",
+    "type": "text",
+    "label": "Twitch client id:",
+    "value": ""
+  },
+  "clientSecret": {
+    "group": "AUTHENTICATION",
+    "type": "text",
+    "label": "Twitch client secret:",
+    "value": ""
+  },
+  "generateToken": {
+    "group": "AUTHENTICATION",
+    "type": "button",
+    "label": "Generate twitch token"
+  },
+  "clientToken": {
+    "group": "AUTHENTICATION",
+    "type": "text",
+    "label": "Twitch token:",
+    "value": ""
+  },
+  "testToken": {
+    "group": "AUTHENTICATION",
+    "type": "button",
+    "label": "Test twitch token"
+  },
+  
+  "animationShuffle": {
+    "group": "ANIMATION",
+    "type": "checkbox",
+    "label": "Shuffle images?"
+  },
+  "animationType": {
+    "group": "ANIMATION",
+    "type": "dropdown",
+    "label": "Type:",
+    "options": {
+      "1": "Diagonal",
+      "2": "Horizontal",
+      "3": "Vertical"
+    }
+  },
+  "animationRows": {
+    "group": "ANIMATION",
+    "type": "number",
+    "label": "Number of rows:",
+    "value": 9,
+    "min": 1,
+    "max": 20,
+    "step": 1
+  },
+  "animationColumns": {
+    "group": "ANIMATION",
+    "type": "number",
+    "label": "Number of columns:",
+    "value": 16,
+    "min": 1,
+    "max": 20,
+    "step": 1
+  },
+  "animationStartDelay": {
+    "group": "ANIMATION",
+    "type": "number",
+    "label": "Start delay (miliseconds):",
+    "value": 0,
+    "min": 0,
+    "max": 10000,
+    "step": 100
+  },
+  "animationWaveDuration": {
+    "group": "ANIMATION",
+    "type": "number",
+    "label": "Wave duration (miliseconds):",
+    "value": 1000,
+    "min": 500,
+    "max": 3000,
+    "step": 100
+  },
+  "animationWaves": {
+    "group": "ANIMATION",
+    "type": "number",
+    "label": "Number of waves:",
+    "value": 1,
+    "min": 1,
+    "max": 3,
+    "step": 1
+  },
+  
+  "command1Enabled": {
+    "group": "COMMAND 1",
+    "type": "checkbox",
+    "label": "Enable command 1?"
+  },
+  "command1Command": {
+    "group": "COMMAND 1",
+    "type": "text",
+    "label": "Command:",
+    "value": ""
+  },
+  "command1Type": {
+    "group": "COMMAND 1",
+    "type": "dropdown",
+    "label": "Type:",
+    "options": {
+      "1": "Custom images",
+      "2": "@user avatar",
+      "3": "@user emotes",
+      "4": "Sender avatar",
+      "5": "Sender emotes",
+      "6": "Broadcaster avatar",
+      "7": "Broadcaster emotes"
+    }
+  },
+  "command1Images": {
+    "group": "COMMAND 1",
+    "type": "image-input",
+    "label": "Custom images:",
+    "multiple": true 
+  },
+  "command1AllowEveryone": {
+    "group": "COMMAND 1",
+    "type": "checkbox",
+    "label": "Allow everyone?"
+  },
+  "command1AllowBroadcaster": {
+    "group": "COMMAND 1",
+    "type": "checkbox",
+    "label": "Allow broadcaster?"
+  },
+  "command1AllowModerator": {
+    "group": "COMMAND 1",
+    "type": "checkbox",
+    "label": "Allow moderators?"
+  },
+  "command1AllowSubscriber": {
+    "group": "COMMAND 1",
+    "type": "checkbox",
+    "label": "Allow subscribers?"
+  },
+  "command1AllowRegular": {
+    "group": "COMMAND 1",
+    "type": "checkbox",
+    "label": "Allow regulars?"
+  },
+  
+  "command2Enabled": {
+    "group": "COMMAND 2",
+    "type": "checkbox",
+    "label": "Enable command 2?"
+  },
+  "command2Command": {
+    "group": "COMMAND 2",
+    "type": "text",
+    "label": "Command:",
+    "value": ""
+  },
+  "command2Type": {
+    "group": "COMMAND 2",
+    "type": "dropdown",
+    "label": "Type:",
+    "options": {
+      "1": "Custom images",
+      "2": "@user avatar",
+      "3": "@user emotes",
+      "4": "Sender avatar",
+      "5": "Sender emotes",
+      "6": "Broadcaster avatar",
+      "7": "Broadcaster emotes"
+    }
+  },
+  "command2Images": {
+    "group": "COMMAND 2",
+    "type": "image-input",
+    "label": "Custom images:",
+    "multiple": true 
+  },
+  "command2AllowEveryone": {
+    "group": "COMMAND 2",
+    "type": "checkbox",
+    "label": "Allow everyone?"
+  },
+  "command2AllowBroadcaster": {
+    "group": "COMMAND 2",
+    "type": "checkbox",
+    "label": "Allow broadcaster?"
+  },
+  "command2AllowModerator": {
+    "group": "COMMAND 2",
+    "type": "checkbox",
+    "label": "Allow moderators?"
+  },
+  "command2AllowSubscriber": {
+    "group": "COMMAND 2",
+    "type": "checkbox",
+    "label": "Allow subscribers?"
+  },
+  "command2AllowRegular": {
+    "group": "COMMAND 2",
+    "type": "checkbox",
+    "label": "Allow regulars?"
+  },
+  
+  "command3Enabled": {
+    "group": "COMMAND 3",
+    "type": "checkbox",
+    "label": "Enable command 3?"
+  },
+  "command3Command": {
+    "group": "COMMAND 3",
+    "type": "text",
+    "label": "Command:",
+    "value": ""
+  },
+  "command3Type": {
+    "group": "COMMAND 3",
+    "type": "dropdown",
+    "label": "Type:",
+    "options": {
+      "1": "Custom images",
+      "2": "@user avatar",
+      "3": "@user emotes",
+      "4": "Sender avatar",
+      "5": "Sender emotes",
+      "6": "Broadcaster avatar",
+      "7": "Broadcaster emotes"
+    }
+  },
+  "command3Images": {
+    "group": "COMMAND 3",
+    "type": "image-input",
+    "label": "Custom images:",
+    "multiple": true 
+  },
+  "command3AllowEveryone": {
+    "group": "COMMAND 3",
+    "type": "checkbox",
+    "label": "Allow everyone?"
+  },
+  "command3AllowBroadcaster": {
+    "group": "COMMAND 3",
+    "type": "checkbox",
+    "label": "Allow broadcaster?"
+  },
+  "command3AllowModerator": {
+    "group": "COMMAND 3",
+    "type": "checkbox",
+    "label": "Allow moderators?"
+  },
+  "command3AllowSubscriber": {
+    "group": "COMMAND 3",
+    "type": "checkbox",
+    "label": "Allow subscribers?"
+  },
+  "command3AllowRegular": {
+    "group": "COMMAND 3",
+    "type": "checkbox",
+    "label": "Allow regulars?"
+  },
+  
+  "command4Enabled": {
+    "group": "COMMAND 4",
+    "type": "checkbox",
+    "label": "Enable command 4?"
+  },
+  "command4Command": {
+    "group": "COMMAND 4",
+    "type": "text",
+    "label": "Command:",
+    "value": ""
+  },
+  "command4Type": {
+    "group": "COMMAND 4",
+    "type": "dropdown",
+    "label": "Type:",
+    "options": {
+      "1": "Custom images",
+      "2": "@user avatar",
+      "3": "@user emotes",
+      "4": "Sender avatar",
+      "5": "Sender emotes",
+      "6": "Broadcaster avatar",
+      "7": "Broadcaster emotes"
+    }
+  },
+  "command4Images": {
+    "group": "COMMAND 4",
+    "type": "image-input",
+    "label": "Custom images:",
+    "multiple": true 
+  },
+  "command4AllowEveryone": {
+    "group": "COMMAND 4",
+    "type": "checkbox",
+    "label": "Allow everyone?"
+  },
+  "command4AllowBroadcaster": {
+    "group": "COMMAND 4",
+    "type": "checkbox",
+    "label": "Allow broadcaster?"
+  },
+  "command4AllowModerator": {
+    "group": "COMMAND 4",
+    "type": "checkbox",
+    "label": "Allow moderators?"
+  },
+  "command4AllowSubscriber": {
+    "group": "COMMAND 4",
+    "type": "checkbox",
+    "label": "Allow subscribers?"
+  },
+  "command4AllowRegular": {
+    "group": "COMMAND 4",
+    "type": "checkbox",
+    "label": "Allow regulars?"
+  },
+  
+  "command5Enabled": {
+    "group": "COMMAND 5",
+    "type": "checkbox",
+    "label": "Enable command 5?"
+  },
+  "command5Command": {
+    "group": "COMMAND 5",
+    "type": "text",
+    "label": "Command:",
+    "value": ""
+  },
+  "command5Type": {
+    "group": "COMMAND 5",
+    "type": "dropdown",
+    "label": "Type:",
+    "options": {
+      "1": "Custom images",
+      "2": "@user avatar",
+      "3": "@user emotes",
+      "4": "Sender avatar",
+      "5": "Sender emotes",
+      "6": "Broadcaster avatar",
+      "7": "Broadcaster emotes"
+    }
+  },
+  "command5Images": {
+    "group": "COMMAND 5",
+    "type": "image-input",
+    "label": "Custom images:",
+    "multiple": true 
+  },
+  "command5AllowEveryone": {
+    "group": "COMMAND 5",
+    "type": "checkbox",
+    "label": "Allow everyone?"
+  },
+  "command5AllowBroadcaster": {
+    "group": "COMMAND 5",
+    "type": "checkbox",
+    "label": "Allow broadcaster?"
+  },
+  "command5AllowModerator": {
+    "group": "COMMAND 5",
+    "type": "checkbox",
+    "label": "Allow moderators?"
+  },
+  "command5AllowSubscriber": {
+    "group": "COMMAND 5",
+    "type": "checkbox",
+    "label": "Allow subscribers?"
+  },
+  "command5AllowRegular": {
+    "group": "COMMAND 5",
+    "type": "checkbox",
+    "label": "Allow regulars?"
+  },
+  
+  "followerEnabled": {
+    "group": "FOLLOWER",
+    "type": "checkbox",
+    "label": "Enable follower event?"
+  },
+  "followerType": {
+    "group": "FOLLOWER",
+    "type": "dropdown",
+    "label": "Type:",
+    "options": {
+      "1": "Custom images",
+      "4": "Event user avatar",
+      "5": "Event user emotes",
+      "6": "Broadcaster avatar",
+      "7": "Broadcaster emotes"
+    }
+  },
+  "followerImages": {
+    "group": "FOLLOWER",
+    "type": "image-input",
+    "label": "Custom images:",
+    "multiple": true 
+  },
+  
+  "subEnabled": {
+    "group": "SUBSCRIBER",
+    "type": "checkbox",
+    "label": "Enable subscriber event?"
+  },
+  "subType": {
+    "group": "SUBSCRIBER",
+    "type": "dropdown",
+    "label": "Type:",
+    "options": {
+      "1": "Custom images",
+      "4": "Event user avatar",
+      "5": "Event user emotes",
+      "6": "Broadcaster avatar",
+      "7": "Broadcaster emotes"
+    }
+  },
+  "subImages": {
+    "group": "SUBSCRIBER",
+    "type": "image-input",
+    "label": "Custom images:",
+    "multiple": true 
+  },
+  
+  "resubEnabled": {
+    "group": "RESUBSCRIBER",
+    "type": "checkbox",
+    "label": "Enable resubscriber event?"
+  },
+  "resubType": {
+    "group": "RESUBSCRIBER",
+    "type": "dropdown",
+    "label": "Type:",
+    "options": {
+      "1": "Custom images",
+      "4": "Event user avatar",
+      "5": "Event user emotes",
+      "6": "Broadcaster avatar",
+      "7": "Broadcaster emotes"
+    }
+  },
+  "resubImages": {
+    "group": "RESUBSCRIBER",
+    "type": "image-input",
+    "label": "Custom images:",
+    "multiple": true 
+  },
+  
+  "hostEnabled": {
+    "group": "HOST",
+    "type": "checkbox",
+    "label": "Enable host event?"
+  },
+  "hostType": {
+    "group": "HOST",
+    "type": "dropdown",
+    "label": "Type:",
+    "options": {
+      "1": "Custom images",
+      "4": "Event user avatar",
+      "5": "Event user emotes",
+      "6": "Broadcaster avatar",
+      "7": "Broadcaster emotes"
+    }
+  },
+  "hostImages": {
+    "group": "HOST",
+    "type": "image-input",
+    "label": "Custom images:",
+    "multiple": true 
+  },
+  
+  "raidEnabled": {
+    "group": "RAID",
+    "type": "checkbox",
+    "label": "Enable raid event?"
+  },
+  "raidType": {
+    "group": "RAID",
+    "type": "dropdown",
+    "label": "Type:",
+    "options": {
+      "1": "Custom images",
+      "4": "Event user avatar",
+      "5": "Event user emotes",
+      "6": "Broadcaster avatar",
+      "7": "Broadcaster emotes"
+    }
+  },
+  "raidImages": {
+    "group": "RAID",
+    "type": "image-input",
+    "label": "Custom images:",
+    "multiple": true 
+  },
+  
+  "cheerEnabled": {
+    "group": "CHEER",
+    "type": "checkbox",
+    "label": "Enable cheer event?"
+  },
+  "cheerType": {
+    "group": "CHEER",
+    "type": "dropdown",
+    "label": "Type:",
+    "options": {
+      "1": "Custom images",
+      "4": "Event user avatar",
+      "5": "Event user emotes",
+      "6": "Broadcaster avatar",
+      "7": "Broadcaster emotes"
+    }
+  },
+  "cheerImages": {
+    "group": "CHEER",
+    "type": "image-input",
+    "label": "Custom images:",
+    "multiple": true 
+  }
+}

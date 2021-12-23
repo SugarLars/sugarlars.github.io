@@ -77,6 +77,6 @@ Notes v1.7d
 Notes v1.7e
 -Fixed newline character when displaying generated CSS result in the textarea (it was shown like one humongous single line).
 -Popups (About and Result) now will appear centered in the app (it was annoying Windows placing them in random start positions).
--Press escape key to close About and Result dialogs (God, why didn't I add this functionality before??).
+-Press Escape key to close About and Result dialogs (God, why didn't I add this functionality before??).
 -New "Reload" menu option to restore last internal save file (handy when opening a new version of the app, and it asks you if you want to load the previous version file, and you accidentally say no).
 -Added Ctrl+S shortcut to save the form.

@@ -87,6 +87,6 @@ Notes v1.8
 -New url image preview (just mouse over grid cells with image filenames).
 -Removed effect type "Brightness" as it conflicted brightness animation types.
 -Version added to final css paragraph to keep track of the last time you generated it.
--Added units everywhere.
--Some labels amended.
+-Added units labels everywhere.
+-Some tooltips amended.
 -Big generate button.

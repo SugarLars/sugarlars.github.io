@@ -80,3 +80,12 @@ Notes v1.7e
 -Press Escape key to close About and Result dialogs (God, why didn't I add this functionality before??).
 -New "Reload" menu option to restore last internal save file (handy when opening a new version of the app, and it asks you if you want to load the previous version file, and you accidentally say no).
 -Added Ctrl+S shortcut to save the form.
+
+Notes v1.8
+-New animation types.
+-New fields animation "Duration" and animation "Quantity".
+-New url image preview (just mouse over grid cells with image filenames).
+-Removed effect type "Brightness" as it conflicted brightness animation types.
+-Added units everywhere.
+-Some labels amended.
+-Big generate button.

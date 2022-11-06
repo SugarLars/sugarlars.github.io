@@ -90,3 +90,8 @@ Notes v1.8
 -Added units labels everywhere.
 -Some tooltips amended.
 -Big generate button.
+
+Notes v1.8a
+-Fields "Layout X/Y" now include negative values. The idea is that the OBS layer takes the whole screen and you configure everything via this app 😉 (tip: hide partially all avatars and add a "Move" animation in the opposite direction so icons pop out like in a whack-a-mole game).
+-Form is always saved in the internal file when closing the app. Now there will be a "Do you want to save changes?" confirmation message in case the form is dirty (this can be useful if you only wanted to test animations without having to import a backup file afterwards).
+-Fixed a stupid CSS thing that made avatars float some pixels above their text or screen edge.
